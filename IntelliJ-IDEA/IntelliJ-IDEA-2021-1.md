@@ -9,7 +9,7 @@ https://mp.weixin.qq.com/s/ffGaBvdiOd54olSeMdOT6g
 
 ## WSL 2的支持
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_png/QCu849YTaINUxy0PY24SDJF0jztOVBcPXD62BKZWffOqNHgVMGO8aWucB8WETQbOzGvb0zCQCYLpauHrXWySOg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/019deb0fad644052880a7b0618504f4b~tplv-k3u1fbpfcp-zoom-1.image)
 
 **「都说Windows 是Linux最好的发行版，可是你的IDE不支持WSL运行那又有何用呢？」**
 
@@ -23,7 +23,7 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 ## 运行目标
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_gif/QCu849YTaINUxy0PY24SDJF0jztOVBcPJMCKYXGNoibEhWOCrCbQs5EJ9VJHVyrJ80nAbSqicyyuBqqBHjNCu5iaA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/260a696680834aaabab391ad79360756~tplv-k3u1fbpfcp-zoom-1.image)
 
 运行目标，这个功能太香了。我们的程序不光可以运行在本地，在WSL 2，在远程SSH主机，还可以再Docker中，一键运行在Docker。
 
@@ -31,13 +31,13 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 ## 内置的HTML预览器
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_gif/QCu849YTaINUxy0PY24SDJF0jztOVBcP5D2Qs4VBFMW8J88PicmMeVnXYv4AzLjw7dWMSoZXtCWG7ViatKR10Arw/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a67b0fc08f634744af6f585de88a7e45~tplv-k3u1fbpfcp-zoom-1.image)
 
 在HTML文件中，只需要点击右上角的IDEA图标，就可以使用内置预览器去预览网页了，而且实时刷新，再也不用打开浏览器预览。
 
 ## 搜索范围的增强
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_png/QCu849YTaINUxy0PY24SDJF0jztOVBcPPJo2lyNMEdQVs2IhIM1iaQhgIbYiasTyeZufxZhEvgoBNULk88Khyurw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/706b2ce56c734af88faf198480cf58b6~tplv-k3u1fbpfcp-zoom-1.image)
 
 
 
@@ -45,7 +45,7 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 ## Windows 版本的任务栏增强
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_png/QCu849YTaINUxy0PY24SDJF0jztOVBcPmiaMYUaia2m1XgH1DIErRrsngUBh9iaMMuqQQZMribDNlXN1WGR61yEzPQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ffbb4184cc554c508843af34aaf0f730~tplv-k3u1fbpfcp-zoom-1.image)
 
 
 
@@ -53,7 +53,7 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 ## 增强的Pull Request支持
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_png/JdLkEI9sZfdbW0ygzcM0ZoG0JVPLpKnPIKSU1HTEyjYMaUxRLkm1s8POsGFVjWOgGOYYW7t9DZFr4paGdI6MYg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8b8238b578b645b085eefedf653d94eb~tplv-k3u1fbpfcp-zoom-1.image)
 
 
 
@@ -61,13 +61,13 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 ## 支持 Git 提交模板
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_gif/QCu849YTaINUxy0PY24SDJF0jztOVBcPWoz5WMQkTfBGW5PdqMn8gVWs4K7qhJ3zZMojIxBvYa6icy8mdfN6jrw/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8b8238b578b645b085eefedf653d94eb~tplv-k3u1fbpfcp-zoom-1.image)
 
 
 
 ## 和其他分支对比文件
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_png/QCu849YTaINUxy0PY24SDJF0jztOVBcPtNU8U0w8NawtuNEAkUPYAVJt3yotpaYshLrAPpPGT0waLeHCqSY9MA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cfc8f774e7b241d9af0b3c0741630daa~tplv-k3u1fbpfcp-zoom-1.image)
 
 
 
@@ -75,35 +75,35 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 ## 拆分窗口优化
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_gif/QCu849YTaINUxy0PY24SDJF0jztOVBcP986tH6iam7urVAj4ccROaEAeI3Mk423RBf9ssNibGhov8g9lzn7nhpQA/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/19d3961532b34848956ae6ab5cb5e804~tplv-k3u1fbpfcp-zoom-1.image)
 
 垂直分割编辑器窗口后，双击Tab就可以将当前窗口最大化，再次双击会还原
 
 ## JSON Path的支持
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_png/QCu849YTaINUxy0PY24SDJF0jztOVBcPG7fbuiaMl2aiawBA6HmtZcLeRa9pbnR80GLaCVOqxwpHOnVAI6bLBQ7Q/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/18bb51506cd7484a8931d69ddc00149e~tplv-k3u1fbpfcp-zoom-1.image)
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_png/QCu849YTaINUxy0PY24SDJF0jztOVBcP9uYUNBp9NV88VQNWM1sNzBibMzTPXuNEkaO7NesCKgqicJ5NjEAwlhYg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/db7fa145eec941ee9e9b0ce7ecbd210d~tplv-k3u1fbpfcp-zoom-1.image)
 
 以后打开`.json`文件时，就可以用JSON Path过滤/转换/输出了
 
 ## JAVA 16的支持
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_png/QCu849YTaINUxy0PY24SDJF0jztOVBcPd2gSnnV2HMPGJ8rLEslywYjfglTgKLFmV2q7oW7vmvQYKYUqVCbs1g/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8cbd1cc2c8f340eb954ee9cbaf65a4c7~tplv-k3u1fbpfcp-zoom-1.image)
 
 IDEA 2021.1 版本已经支持了JAVA 16
 
 ## 更智能的数据检查
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_png/QCu849YTaINUxy0PY24SDJF0jztOVBcPWb3nneU2DTzmIVu87Ml5kZerXc9acPf3axK4L1lTKL5CWnxB4ticvnQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0de1815a1d1e44c4a426634acba42c99~tplv-k3u1fbpfcp-zoom-1.image)
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_png/QCu849YTaINUxy0PY24SDJF0jztOVBcPUx9757sU2oEBE8OG9RryeD0ZkUH3sftXibcDIRotxQjnf5qGRvJzlYw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbf27ddda4f5493ba123af86f597fe5f~tplv-k3u1fbpfcp-zoom-1.image)
 
 IDEA 现在会提示你一些基本的错误，比如数据长度为负数，提示你拆箱装箱等。
 
 ## 浅色UML背景的支持
 
-![图1片](https://mmbiz.qpic.cn/mmbiz_png/QCu849YTaINUxy0PY24SDJF0jztOVBcP9RVoVElWwA4Ybm0IwR0KSQBR7L72ZoCKRrruDkHFVce7oakHO47GDQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图1片](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/427527c9581d45409691a39357edda5c~tplv-k3u1fbpfcp-zoom-1.image)
 
 对于一些喜欢用浅色主题的同学来说，以后看UML图再也不用深色了
 
