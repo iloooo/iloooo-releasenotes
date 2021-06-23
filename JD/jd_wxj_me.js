@@ -5,7 +5,7 @@ export shareCode="FCD4A7E5CB4AF69377D77E9B4553CF6CAD1DAAB9A3E3F6CBAFDE81EEB73933
 [task_local]
 0 10 * * *
 */
-
+export shareCode="64F13F483276B436F90F9A841864D3C4"
 const $ = new Env('柠檬全民挖现金');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
@@ -15,7 +15,10 @@ const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 let cookiesArr = [], cookie = '', message;
 let allMessage = '';
 let shareCode = '';
-shareCode = '23.0复制整段话 http://JQlZh5YEpxOj2U【春风十里，不如送你200元，可提现】￥q7vRB8iaEa%→去&#120051;&#120050;&#120055;&#120048;腖Ap p';
+//shareCode = '23.0复制整段话 http://JQlZh5YEpxOj2U【春风十里，不如送你200元，可提现】￥q7vRB8iaEa%→去&#120051;&#120050;&#120055;&#120048;腖Ap p';
+if (process.env.SHARECODE_WXJ) {
+    shareCode = process.env.SHARECODE_WXJ;
+}
 if ($.isNode()) {
     Object.keys(jdCookieNode).forEach((item) => {
         cookiesArr.push(jdCookieNode[item])
