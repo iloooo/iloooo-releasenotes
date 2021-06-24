@@ -5,6 +5,7 @@ export shareCode="FCD4A7E5CB4AF69377D77E9B4553CF6CAD1DAAB9A3E3F6CBAFDE81EEB73933
 [task_local]
 0 10 * * *
 */
+
 const $ = new Env('柠檬全民挖现金');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
@@ -14,7 +15,9 @@ const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 let cookiesArr = [], cookie = '', message;
 let allMessage = '';
 let shareCode = '64F13F483276B436F90F9A841864D3C4';
-//shareCode = '23.0复制整段话 http://JQlZh5YEpxOj2U【春风十里，不如送你200元，可提现】￥q7vRB8iaEa%→去&#120051;&#120050;&#120055;&#120048;腖Ap p';
+//if (process.env.SHARECODE_WXJ) {
+//   shareCode = process.env.SHARECODE_WXJ;
+//}
 if ($.isNode()) {
     Object.keys(jdCookieNode).forEach((item) => {
         cookiesArr.push(jdCookieNode[item])
@@ -52,8 +55,14 @@ const JD_API_HOST = 'https://api.m.jd.com/client.action';
             await list1()
             await info()
             await help()
-            await helpAuthor()
-            await dslq()
+			await dslq()
+            //if (process.env.HELPAUTHOR_WXJ && process.env.HELPAUTHOR_WXJ === 'false') {
+            //    await dslq()
+            //} else {
+            //    await helpAuthor()
+            //    await dslq()
+            //}
+        }
     }
     if ($.isNode() && allMessage) {
         await notify.sendNotify(`${$.name}`, `${allMessage}`)
@@ -338,6 +347,7 @@ function TotalBean() {
                 "Connection": "keep-alive",
                 "Cookie": cookie,
                 "Referer": "https://wqs.jd.com/my/jingdou/my.shtml?sceneval=2",
+				//(process.env.JD_USER_AGENT ? process.env.JD_USER_AGENT : (require('./USER_AGENTS').USER_AGENT))
                 "User-Agent": $.isNode() ? require('./USER_AGENTS').USER_AGENT : ($.getdata('JDUA') ? $.getdata('JDUA') : "jdapp;iPhone;9.4.4;14.3;network/4g;Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1"),
             }
         }
